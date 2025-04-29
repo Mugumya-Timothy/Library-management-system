@@ -1,0 +1,1001 @@
+[26-Apr-2025 09:33:02 UTC] PHP Warning:  require_once(utils/logger.php): Failed to open stream: No such file or directory in C:\Users\Mugumya Timothy\Desktop\database - Copy\test_connection.php on line 3
+[26-Apr-2025 09:33:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'utils/logger.php' (include_path='.;C:\php\pear') in C:\Users\Mugumya Timothy\Desktop\database - Copy\test_connection.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Mugumya Timothy\Desktop\database - Copy\test_connection.php on line 3
+[26-Apr-2025 09:34:16 UTC] Database Connection Error: could not find driver
+[26-Apr-2025 09:34:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\Mugumya Timothy\Desktop\database - Copy\test_connection.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Mugumya Timothy\Desktop\database - Copy\test_connection.php on line 23
+[26-Apr-2025 09:35:28 UTC] Database Connection Error: could not find driver
+[26-Apr-2025 09:35:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\Mugumya Timothy\Desktop\database - Copy\connection_test.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Mugumya Timothy\Desktop\database - Copy\connection_test.php on line 55
+[26-Apr-2025 09:39:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Mugumya Timothy\Desktop\database - Copy\config.php:103) in C:\Users\Mugumya Timothy\Desktop\database - Copy\connection_test.php on line 6
+[26-Apr-2025 09:39:00 UTC] Database Connection Error: could not find driver
+[26-Apr-2025 09:39:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\Mugumya Timothy\Desktop\database - Copy\connection_test.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Mugumya Timothy\Desktop\database - Copy\connection_test.php on line 55
+[2025-04-26 11:17:57] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 12:39:13] [INFO] Staff ID 1 (admin) logged in successfully
+[26-Apr-2025 12:57:47 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 12:57:59 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 12:58:14 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 12:59:21 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 13:00:03 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 13:00:46 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 13:01:45 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[26-Apr-2025 13:02:45 UTC] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-04-26 13:11:21] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 13:12:13] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:13:57] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:25:39] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:25:48] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:28:57] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:33:41] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:34:01] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:36:41] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:43:42] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:44:49] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:49:29] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:50:26] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:50:47] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:52:56] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 13:53:02] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-26 13:53:20] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 14:23:04] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:05] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:08] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:09] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:12] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:13] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:14] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:15] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:23:17] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-26 14:23:50] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 14:25:07] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:25:08] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:25:09] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:25:11] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:25:18] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:36:57] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:37:00] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:37:53] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:37:55] [ERROR] Error fetching transactions: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions.php(57): PDO->query('\r\n            S...')
+#1 {main}
+[26-Apr-2025 14:37:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in C:\wamp64\www\library-system\transactions_add.php:47
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\library-system\transactions_add.php on line 47
+[2025-04-26 14:38:01] [ERROR] Error fetching fines: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): PDO->query('\r\n            S...')
+#1 {main}
+[26-Apr-2025 14:38:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::real_escape_string() in C:\wamp64\www\library-system\fines.php:84
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 84
+[2025-04-26 14:38:24] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:38:25] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:41:19] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:49:26] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:49:29] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:49:30] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:49:30] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:49:31] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:50:47] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:50:48] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:50:49] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:52:00] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:52:01] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:52:02] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:53:04] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:53:05] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:53:21] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:53:23] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:53:28] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:53:29] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:54:31] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:58:23] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:58:24] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:58:25] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:58:26] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 14:58:26] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:01:07] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:01:28] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:04:47] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:04:51] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:04:51] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:04:54] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:05:22] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:05:23] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:05:26] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:05:27] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:05:34] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:05:45] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:06:09] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:51:01] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 15:51:09] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:51:10] [ERROR] Error fetching members: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 15:51:11] [ERROR] Error fetching books: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): PDO->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:02:30] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:02:33] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:03:14] [ERROR] Book add error: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_add.php(66): mysqli->prepare('\r\n             ...')
+#1 {main}
+[26-Apr-2025 16:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::rowCount() in C:\wamp64\www\library-system\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\library-system\index.php on line 39
+[26-Apr-2025 16:18:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::rowCount() in C:\wamp64\www\library-system\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\library-system\index.php on line 39
+[26-Apr-2025 16:18:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::rowCount() in C:\wamp64\www\library-system\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\library-system\index.php on line 39
+[2025-04-26 16:28:56] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 16:28:58] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:29:10] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:29:14] [ERROR] Error fetching members: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:31:24] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:31:33] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-26 16:31:51] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 16:32:22] [INFO] New book (ID: 93, Title: hello) added by Staff ID 1
+[2025-04-26 16:32:27] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:32:37] [ERROR] Member add error: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_add.php(65): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-26 16:33:10] [ERROR] Member add error: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_add.php(65): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-26 16:33:13] [ERROR] Error fetching members: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:33:20] [ERROR] Error fetching transaction ID 4: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 16:33:30] [ERROR] Error fetching transaction ID 4: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 16:33:35] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:33:39] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:33:41] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:33:43] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:34:38] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:34:50] [ERROR] Member add error: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_add.php(65): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-26 16:34:53] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:35:16] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:35:49] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:35:53] [ERROR] Error fetching members: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:53:02] [ERROR] Error fetching books: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:53:19] [ERROR] Error fetching members: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members.php(79): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:54:00] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:54:43] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:55:35] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 16:55:40] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 17:07:41] [WARNING] Failed login attempt for username: admin1 - User not found
+[2025-04-26 17:08:10] [WARNING] Failed login attempt for username: admin1 - User not found
+[2025-04-26 17:08:21] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-26 17:14:23] [INFO] New book (ID: 94, Title: Animal Farm) added by Staff ID 1
+[2025-04-26 17:15:53] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:16:02] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:16:09] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:17:24] [INFO] New member (ID: 11, Name: hi helksfd) added by Staff ID 1
+[2025-04-26 17:17:34] [INFO] Member ID 11 deleted by Staff ID 1
+[2025-04-26 17:17:46] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:17:53] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:18:10] [ERROR] Error fetching member ID 2: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:18:16] [ERROR] Error fetching transaction ID 2: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:18:30] [INFO] Member ID 2 deleted by Staff ID 1
+[2025-04-26 17:18:36] [INFO] Member ID 1 deleted by Staff ID 1
+[2025-04-26 17:18:54] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-26 17:20:08] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:20:19] [ERROR] Error fetching transaction ID 4: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:33:12] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:33:20] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:33:26] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-26 17:33:57] [ERROR] Error fetching transaction ID 4: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 09:50:27] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 09:54:39] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-27 09:55:12] [INFO] Staff ID 2 (daniel) logged in successfully
+[2025-04-27 09:58:58] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:07:31] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:08:28] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:09:55] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:20] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:30] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:39] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:48] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:48] [ERROR] Member update error: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(127): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 10:10:51] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:51] [ERROR] Member update error: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(127): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 10:10:56] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:10:56] [ERROR] Member update error: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(127): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 10:11:02] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:11:41] [ERROR] Error fetching book ID 48: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:13:52] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:14:07] [ERROR] Error fetching book ID 48: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:14:20] [INFO] Book ID 48 deleted by Staff ID 2
+[2025-04-27 10:14:30] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:14:33] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:22:48] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:22:59] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:23:14] [ERROR] Error fetching member ID 7: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:27:04] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:27:25] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:27:49] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_return.php(36): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:35:53] [INFO] Staff ID 2 (Nuwagaba Daniel) logged out
+[2025-04-27 10:36:02] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 10:36:25] [INFO] Book returned for transaction ID 5 by Staff ID 1
+[2025-04-27 10:36:35] [INFO] Book returned for transaction ID 4 by Staff ID 1
+[2025-04-27 10:37:06] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:37:45] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:38:06] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:38:21] [ERROR] Error fetching transaction ID 3: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:38:43] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:40:16] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:51:22] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:51:28] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:51:35] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:51:51] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:51:55] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:52:01] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 10:52:04] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:52:07] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:56:44] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:56:46] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:56:47] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:56:48] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:56:48] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:57:03] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:57:05] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-27 10:57:12] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 10:58:45] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:58:47] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 10:58:48] [ERROR] Error fetching fines: Unknown column 'f.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(89): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:00:14] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:00:33] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_view.php(33): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:02:47] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:05:26] [ERROR] Error fetching member ID 5: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:05:55] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:08:16] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:08:46] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:09:31] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:09:37] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:10:32] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:10:41] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:11:05] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:11:40] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:12:20] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:12:36] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:16:03] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:16:32] [INFO] Book ID 94 deleted by Staff ID 1
+[2025-04-27 11:16:46] [INFO] Book ID 93 deleted by Staff ID 1
+[2025-04-27 11:17:36] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 11:18:01] [INFO] Fine ID 2 marked as paid by Staff ID 1
+[2025-04-27 11:18:12] [INFO] Fine ID 2 marked as unpaid by Staff ID 1
+[2025-04-27 11:18:15] [INFO] Fine ID 2 marked as paid by Staff ID 1
+[2025-04-27 11:20:17] [INFO] Fine ID 2 marked as unpaid by Staff ID 1
+[2025-04-27 11:20:18] [INFO] Fine ID 2 marked as paid by Staff ID 1
+[2025-04-27 11:20:27] [INFO] Fine ID 2 marked as unpaid by Staff ID 1
+[2025-04-27 11:22:44] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 11:44:39] [INFO] Staff ID 1 (admin) logged in successfully
+[27-Apr-2025 11:44:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:45:07 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[2025-04-27 11:45:08] [INFO] Fine ID 2 marked as paid by Staff ID 1
+[27-Apr-2025 11:45:08 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[2025-04-27 11:48:03] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[27-Apr-2025 11:48:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:48:16 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:48:17 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:54:54 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:54:57 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:55:12 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:55:13 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:55:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[2025-04-27 11:56:14] [INFO] Staff ID 1 (admin) logged in successfully
+[27-Apr-2025 11:56:18 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[2025-04-27 11:57:10] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[27-Apr-2025 11:57:24 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:58:30 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:58:31 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:58:32 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:58:33 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 11:59:07 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:01:15 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:01:17 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[2025-04-27 12:01:26] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-27 12:04:13] [INFO] Staff ID 1 (admin) logged in successfully
+[27-Apr-2025 12:04:15 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:04:22 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:04:23 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:04:54 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:04:57 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:04:58 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\wamp64\www\library-system\fines.php:376
+Stack trace:
+#0 C:\wamp64\www\library-system\fines.php(376): mysqli->query('SELECT t.transa...')
+#1 {main}
+  thrown in C:\wamp64\www\library-system\fines.php on line 376
+[27-Apr-2025 12:11:37 UTC] PHP Warning:  Undefined array key "reason" in C:\wamp64\www\library-system\fines.php on line 33
+[27-Apr-2025 12:11:37 UTC] PHP Stack trace:
+[27-Apr-2025 12:11:37 UTC] PHP   1. {main}() C:\wamp64\www\library-system\fines.php:0
+[27-Apr-2025 12:11:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\utils.php on line 11
+[27-Apr-2025 12:11:37 UTC] PHP Stack trace:
+[27-Apr-2025 12:11:37 UTC] PHP   1. {main}() C:\wamp64\www\library-system\fines.php:0
+[27-Apr-2025 12:11:37 UTC] PHP   2. sanitizeInput($data = NULL) C:\wamp64\www\library-system\fines.php:33
+[27-Apr-2025 12:11:37 UTC] PHP   3. trim($string = NULL) C:\wamp64\www\library-system\utils.php:11
+[2025-04-27 12:11:37] [ERROR] Fine creation error: Unknown column 'reason' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(59): mysqli->prepare('\n              ...')
+#1 {main}
+[27-Apr-2025 12:13:37 UTC] PHP Warning:  Undefined array key "reason" in C:\wamp64\www\library-system\fines.php on line 33
+[27-Apr-2025 12:13:37 UTC] PHP Stack trace:
+[27-Apr-2025 12:13:37 UTC] PHP   1. {main}() C:\wamp64\www\library-system\fines.php:0
+[27-Apr-2025 12:13:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\utils.php on line 11
+[27-Apr-2025 12:13:37 UTC] PHP Stack trace:
+[27-Apr-2025 12:13:37 UTC] PHP   1. {main}() C:\wamp64\www\library-system\fines.php:0
+[27-Apr-2025 12:13:37 UTC] PHP   2. sanitizeInput($data = NULL) C:\wamp64\www\library-system\fines.php:33
+[27-Apr-2025 12:13:37 UTC] PHP   3. trim($string = NULL) C:\wamp64\www\library-system\utils.php:11
+[2025-04-27 12:13:37] [ERROR] Fine creation error: Unknown column 'reason' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(59): mysqli->prepare('\n              ...')
+#1 {main}
+[27-Apr-2025 12:14:16 UTC] PHP Warning:  Undefined array key "reason" in C:\wamp64\www\library-system\fines.php on line 33
+[27-Apr-2025 12:14:16 UTC] PHP Stack trace:
+[27-Apr-2025 12:14:16 UTC] PHP   1. {main}() C:\wamp64\www\library-system\fines.php:0
+[27-Apr-2025 12:14:16 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\utils.php on line 11
+[27-Apr-2025 12:14:16 UTC] PHP Stack trace:
+[27-Apr-2025 12:14:16 UTC] PHP   1. {main}() C:\wamp64\www\library-system\fines.php:0
+[27-Apr-2025 12:14:16 UTC] PHP   2. sanitizeInput($data = NULL) C:\wamp64\www\library-system\fines.php:33
+[27-Apr-2025 12:14:16 UTC] PHP   3. trim($string = NULL) C:\wamp64\www\library-system\utils.php:11
+[2025-04-27 12:14:16] [ERROR] Fine creation error: Unknown column 'reason' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\fines.php(59): mysqli->prepare('\n              ...')
+#1 {main}
+[2025-04-27 12:18:26] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 12:18:45] [INFO] Fine ID 3 created by Staff ID 1 for Transaction ID 3
+[2025-04-27 12:19:26] [INFO] Fine ID 3 marked as paid by Staff ID 1
+[2025-04-27 12:20:19] [INFO] Fine ID 4 created by Staff ID 1 for Transaction ID 4
+[2025-04-27 12:20:21] [INFO] Fine ID 2 marked as unpaid by Staff ID 1
+[2025-04-27 12:21:08] [ERROR] Error loading data for transaction: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(53): mysqli->query('\r\n            S...')
+#1 {main}
+[2025-04-27 12:23:53] [INFO] Fine ID 2 marked as paid by Staff ID 1
+[2025-04-27 12:23:55] [INFO] Fine ID 3 marked as unpaid by Staff ID 1
+[2025-04-27 12:35:20] [ERROR] Transaction add error: Unknown column 'status' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(164): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:35:29] [ERROR] Transaction add error: Unknown column 'status' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(164): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:36:51] [ERROR] Transaction add error: Unknown column 'status' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(164): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:36:52] [ERROR] Transaction add error: Unknown column 'status' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(164): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:37:05] [ERROR] Transaction add error: Unknown column 'status' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(164): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:39:30] [ERROR] Transaction add error: Unknown column 'loan_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(185): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:39:35] [ERROR] Transaction add error: Unknown column 'loan_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(185): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:39:48] [ERROR] Transaction add error: Unknown column 'loan_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_add.php(185): mysqli->prepare('\r\n             ...')
+#1 {main}
+[2025-04-27 12:42:28] [INFO] Book (ID: 86) issued to Member (ID: 8) by Staff ID 1. Loan ID: 6
+[2025-04-27 12:43:59] [INFO] Book (ID: 74) issued to Member (ID: 6) by Staff ID 1. Loan ID: 7
+image.png[2025-04-27 12:50:15] [INFO] Staff ID 1 (admin) logged in successfully
+[27-Apr-2025 12:54:00 UTC] PHP Warning:  Undefined array key "name" in C:\wamp64\www\library-system\templates\staff_delete_template.php on line 71
+[27-Apr-2025 12:54:00 UTC] PHP Stack trace:
+[27-Apr-2025 12:54:00 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 12:54:00 UTC] PHP   2. handleDeleteStaff($staffId = 5) C:\wamp64\www\library-system\staff.php:35
+[27-Apr-2025 12:54:00 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:488
+[27-Apr-2025 12:54:00 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\templates\staff_delete_template.php on line 71
+[27-Apr-2025 12:54:00 UTC] PHP Stack trace:
+[27-Apr-2025 12:54:00 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 12:54:00 UTC] PHP   2. handleDeleteStaff($staffId = 5) C:\wamp64\www\library-system\staff.php:35
+[27-Apr-2025 12:54:00 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:488
+[27-Apr-2025 12:54:00 UTC] PHP   4. htmlspecialchars($string = NULL) C:\wamp64\www\library-system\templates\staff_delete_template.php:71
+[27-Apr-2025 12:54:27 UTC] PHP Warning:  Undefined array key "name" in C:\wamp64\www\library-system\templates\staff_delete_template.php on line 71
+[27-Apr-2025 12:54:27 UTC] PHP Stack trace:
+[27-Apr-2025 12:54:27 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 12:54:27 UTC] PHP   2. handleDeleteStaff($staffId = 6) C:\wamp64\www\library-system\staff.php:35
+[27-Apr-2025 12:54:27 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:488
+[27-Apr-2025 12:54:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\templates\staff_delete_template.php on line 71
+[27-Apr-2025 12:54:27 UTC] PHP Stack trace:
+[27-Apr-2025 12:54:27 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 12:54:27 UTC] PHP   2. handleDeleteStaff($staffId = 6) C:\wamp64\www\library-system\staff.php:35
+[27-Apr-2025 12:54:27 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:488
+[27-Apr-2025 12:54:27 UTC] PHP   4. htmlspecialchars($string = NULL) C:\wamp64\www\library-system\templates\staff_delete_template.php:71
+[27-Apr-2025 12:57:34 UTC] PHP Warning:  Undefined array key "name" in C:\wamp64\www\library-system\templates\staff_edit_template.php on line 52
+[27-Apr-2025 12:57:34 UTC] PHP Stack trace:
+[27-Apr-2025 12:57:34 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 12:57:34 UTC] PHP   2. handleEditStaff($staffId = 2) C:\wamp64\www\library-system\staff.php:32
+[27-Apr-2025 12:57:34 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:417
+[27-Apr-2025 12:57:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\templates\staff_edit_template.php on line 52
+[27-Apr-2025 12:57:34 UTC] PHP Stack trace:
+[27-Apr-2025 12:57:34 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 12:57:34 UTC] PHP   2. handleEditStaff($staffId = 2) C:\wamp64\www\library-system\staff.php:32
+[27-Apr-2025 12:57:34 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:417
+[27-Apr-2025 12:57:34 UTC] PHP   4. htmlspecialchars($string = NULL) C:\wamp64\www\library-system\templates\staff_edit_template.php:52
+[2025-04-27 12:58:14] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[27-Apr-2025 13:00:56 UTC] PHP Warning:  Undefined array key "name" in C:\wamp64\www\library-system\templates\staff_edit_template.php on line 52
+[27-Apr-2025 13:00:56 UTC] PHP Stack trace:
+[27-Apr-2025 13:00:56 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 13:00:56 UTC] PHP   2. handleEditStaff($staffId = 1) C:\wamp64\www\library-system\staff.php:32
+[27-Apr-2025 13:00:56 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:417
+[27-Apr-2025 13:00:56 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\templates\staff_edit_template.php on line 52
+[27-Apr-2025 13:00:56 UTC] PHP Stack trace:
+[27-Apr-2025 13:00:56 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 13:00:56 UTC] PHP   2. handleEditStaff($staffId = 1) C:\wamp64\www\library-system\staff.php:32
+[27-Apr-2025 13:00:56 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:417
+[27-Apr-2025 13:00:56 UTC] PHP   4. htmlspecialchars($string = NULL) C:\wamp64\www\library-system\templates\staff_edit_template.php:52
+[27-Apr-2025 13:03:13 UTC] PHP Warning:  Undefined array key "name" in C:\wamp64\www\library-system\templates\staff_delete_template.php on line 71
+[27-Apr-2025 13:03:13 UTC] PHP Stack trace:
+[27-Apr-2025 13:03:13 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 13:03:13 UTC] PHP   2. handleDeleteStaff($staffId = 7) C:\wamp64\www\library-system\staff.php:35
+[27-Apr-2025 13:03:13 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:503
+[27-Apr-2025 13:03:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\templates\staff_delete_template.php on line 71
+[27-Apr-2025 13:03:13 UTC] PHP Stack trace:
+[27-Apr-2025 13:03:13 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 13:03:13 UTC] PHP   2. handleDeleteStaff($staffId = 7) C:\wamp64\www\library-system\staff.php:35
+[27-Apr-2025 13:03:13 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:503
+[27-Apr-2025 13:03:13 UTC] PHP   4. htmlspecialchars($string = NULL) C:\wamp64\www\library-system\templates\staff_delete_template.php:71
+[2025-04-27 13:06:47] [ERROR] Error fetching book ID 15: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:07:44] [ERROR] Error fetching book ID 15: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:08:39] [ERROR] Error fetching member ID 4: Unknown column 'name' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(39): mysqli->prepare('\r\n            S...')
+#1 {main}
+[27-Apr-2025 13:09:05 UTC] PHP Warning:  Undefined array key "name" in C:\wamp64\www\library-system\templates\staff_edit_template.php on line 52
+[27-Apr-2025 13:09:05 UTC] PHP Stack trace:
+[27-Apr-2025 13:09:05 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 13:09:05 UTC] PHP   2. handleEditStaff($staffId = 1) C:\wamp64\www\library-system\staff.php:32
+[27-Apr-2025 13:09:05 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:417
+[27-Apr-2025 13:09:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\library-system\templates\staff_edit_template.php on line 52
+[27-Apr-2025 13:09:05 UTC] PHP Stack trace:
+[27-Apr-2025 13:09:05 UTC] PHP   1. {main}() C:\wamp64\www\library-system\staff.php:0
+[27-Apr-2025 13:09:05 UTC] PHP   2. handleEditStaff($staffId = 1) C:\wamp64\www\library-system\staff.php:32
+[27-Apr-2025 13:09:05 UTC] PHP   3. include() C:\wamp64\www\library-system\staff.php:417
+[27-Apr-2025 13:09:05 UTC] PHP   4. htmlspecialchars($string = NULL) C:\wamp64\www\library-system\templates\staff_edit_template.php:52
+[2025-04-27 13:14:48] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:14:52] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:14:53] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:14:58] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:15:13] [ERROR] Error fetching book ID 15: Unknown column 'publication_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:15:18] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:16:11] [ERROR] Error fetching book ID 15: Unknown column 'publication_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:16:19] [ERROR] Error fetching book ID 68: Unknown column 'publication_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:27:03] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 13:27:42] [ERROR] Error fetching member ID 10: Unknown column 'date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:28:01] [ERROR] Error fetching book ID 22: Unknown column 'publication_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:31:03] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:31:13] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:31:29] [ERROR] Error fetching book ID 22: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:31:35] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:31:52] [ERROR] Error fetching member ID 4: Unknown column 'membership_date' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\members_edit.php(41): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:32:02] [ERROR] Error fetching book ID 22: Unknown column 'published_year' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\books_edit.php(40): mysqli->prepare('\r\n            S...')
+#1 {main}
+[2025-04-27 13:36:58] [INFO] Member ID 5 updated by Staff ID 1
+[27-Apr-2025 13:51:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\library-system\config.php:96) in C:\wamp64\www\library-system\get_stats.php on line 4
+[2025-04-27 13:57:17] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 14:02:25] [INFO] Book returned for transaction ID 6 by Staff ID 1
+[2025-04-27 14:08:11] [ERROR] Error fetching transaction ID 5: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\n            SE...')
+#1 {main}
+[2025-04-27 14:08:17] [INFO] Book returned for transaction ID 7 by Staff ID 1
+[2025-04-27 14:08:30] [ERROR] Error fetching transaction ID 6: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\n            SE...')
+#1 {main}
+[2025-04-27 14:13:09] [ERROR] Error fetching transaction ID 6: Unknown column 't.loan_id' in 'field list'
+Stack trace: #0 C:\wamp64\www\library-system\transactions_view.php(40): mysqli->prepare('\n            SE...')
+#1 {main}
+[2025-04-27 14:13:55] [INFO] Book (ID: 82) issued to Member (ID: 9) by Staff ID 1. Loan ID: 8
+[2025-04-27 14:19:01] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-27 14:21:20] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-27 14:22:18] [INFO] Book ID 22 deleted by Staff ID 1
+[2025-04-27 14:22:47] [INFO] Book (ID: 86) issued to Member (ID: 8) by Staff ID 1. Loan ID: 9
+[2025-04-27 14:23:10] [INFO] Book returned for transaction ID 9 by Staff ID 1
+[2025-04-27 14:23:19] [INFO] Fine ID 4 marked as unpaid by Staff ID 1
+[2025-04-27 14:23:23] [INFO] Fine ID 4 marked as paid by Staff ID 1
+[2025-04-27 14:24:25] [INFO] Staff ID 1 (Kirabo Elizabeth) logged out
+[2025-04-28 06:31:58] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-28 06:34:43] [INFO] Staff ID 1 (admin) logged in successfully
+[2025-04-28 08:24:33] [WARNING] Failed login attempt for username: admin - Invalid password
+[2025-04-28 08:24:39] [INFO] Staff ID 1 (admin) logged in successfully
